@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/addbook.css">
+	
+</head>
+<title> Library Management System</title>
+<body>
+	<header class="menu">
+	<p class="name"><a href="home.html">ONLINE LIBRARY</a></p>
+		<ul class="info">
+			<li><a class="left"href="contact.html">Contact</a></li>
+			<li><a class="left"href="facilities.html">Facilities</a></li>
+			<li><a class="left"href="gallery.html">Gallery</a></li>
+			<li> <a class="right"href="login.html">Login</a></li>
+			<div class="dropdown">
+				<li> <a class="dropbtn" href="books.html">Books</a></li>
+				<div class="dropdown-content">
+					<a href="searchbooks.html">Search Books</a>
+					<a href="addbook.html">Add Books</a>
+					<a href="donatebook.html">Donate Books</a>
+				</div>
+			</div>		
+			<li> <a class="right" href="about.html">About</a></li>
+		</ul>
+	</header>
+	<div class="add">
+		<h1>ADD BOOKS</h1>
+		<input  type="text" placeholder="Book Name" pattern="[A-Z]" required>
+		<br></br>
+		<input type="text" placeholder="Edition" required>
+		<br></br>
+		<input type="text" placeholder="Name of Author" pattern="[A-Z]{30}" required>
+		<br></br>
+		<input type="text" placeholder="Category" required>
+		<br></br>
+		<input type="Number" placeholder="Number of copies" required>
+		<br></br>
+		<input class="submit" type="submit" placeholder="Submit">
+		<br></br>
+	</div>
+</body>
+</html>

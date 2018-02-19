@@ -1,0 +1,80 @@
+body{
+	background-image: url("../images/login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+
+p a{
+	text-decoration: none;
+	color: white;
+}
+h1{
+	color:black;
+	margin-top: 60px;
+	margin-bottom: 35px;
+	padding-top: 5px;
+}
+.add{
+	text-align: center;
+	border: none;
+	margin-top: 20px;
+	margin-left: 380px;
+	width:50%;
+	height:320px;
+	color: white;
+
+
+}
+input, select{ 
+	height: 30px;
+	margin-bottom: 20px;
+	width:70%;
+	background-color:black;
+	border:1px solid black;
+	color: white;
+	padding-left: 10px;
+	border-radius: 8px;
+	-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+}
+
+input:focus {
+    width: 100%;
+}
+
+button{
+	width:10%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	background-color: black;
+	border: none;
+}
+.submit:hover{
+	background-color: #517b96;
+}
+
+label.control-label{
+	color: white;
+	text-align: left;
+}
+div.details{
+	color:white;
+	text-align: center;
+
+}
+form{
+	text-align: center;
+}
+div.alert{
+	color: white;
+	font-size: 40px;
+	font-family: serif;
+}
+a.btn{
+	border: 5px solid white;
+	background-color: black;
+	padding:5px 20px 5px 20px;
+}
